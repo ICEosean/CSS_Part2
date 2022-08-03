@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>显示模式之行内元素</title>
+    <style>
+        span {
+            /* 高、宽直接这样设置是无效的。 */
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <span>pink老师你怎么穿着品如的衣服</span> <strong>品如的衣服</strong>
+    <span>pink老师</span> <strong>品如的衣服</strong>
+</body>
+
+</html>
+<!-- 
+行内元素的特点：
+① 相邻行内元素在一行上，一行可以显示多个。
+② 高、宽直接设置是无效的。
+③ 默认宽度就是它本身内容的宽度。
+④ 行内元素只能容纳文本或其他行内元素。 -->
+<!-- 
+注意：
+ 链接里面不能再放链接
+ 特殊情况链接 <a> 里面可以放块级元素，但是给 <a> 转换一下块级模式最安全 -->

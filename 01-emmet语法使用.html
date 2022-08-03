@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emmet语法使用</title>
+    <style>
+        .one {
+            /* tac*/
+            text-align: center; 
+            /* ti2em*/
+            text-indent: 2em;
+            /* w100 */
+            width: 100px;
+            /* h200 */
+            height: 200px;
+            /* lh26px */
+            line-height: 26px;
+            /* tdn */
+            text-decoration: none;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+    <table></table>
+    <!-- 生成多个相同标签 例如 div*4+Tab -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!-- 父子级关系 例如 div>span -->
+    <div><span></span></div>
+    <ul>
+        <li></li>
+    </ul>
+    <!-- 兄弟关系 例如p+span -->
+    <p></p>
+    <span></span>
+    <!-- .xxx #xxx 直接生成类或id -->
+    <div class="nav"></div>
+    <div id="banner"></div>
+    <!-- span.wuhu+ Tab或回车 -->
+    <span class="wuhu"></span>
+    <p class="one"></p>
+    <!-- ul>li#two -->
+    <ul>
+        <li id="two"></li>
+    </ul>
+    <!-- ol>li.ohh -->
+    <ol>
+        <li class="ohh"></li>
+    </ol>
+    <!-- .demo$*5 -->
+    <div class="demo1"></div>
+    <div class="demo2"></div>
+    <div class="demo3"></div>
+    <div class="demo4"></div>
+    <div class="demo5"></div>
+    <!-- 使生成的标签里面默认显示几个文字 例如 div{哒哒哒哒哒}+Tab或回车 -->
+    <div>哒哒哒哒哒</div>
+    <!-- div{hhh$}*5+Tab -->
+    <div>hhh1</div>
+    <div>hhh2</div>
+    <div>hhh3</div>
+    <div>hhh4</div>
+    <div>hhh5</div>
+</body>
+</html>
